@@ -119,11 +119,10 @@ int main() {
 		 } else if(populacao2>populacao1){
 	        printf("EBA, carta 2 foi ganhou!\n");
 		    printf("o pais vencedor foi:%c", pais2);
-		 } else{
-		   printf("Poxa, ambos ficaram empatadas!\n");
-	      }
+		 } 
           break;
-	 case 2:
+	
+	case 2:
 	   printf("Voce escolheu a Area\n");
 	   if(area1>area2) {
 	   printf("A carta 1 ganhou!\n");
@@ -131,11 +130,10 @@ int main() {
 	   } else if (area2>area1){
 	   printf("A carta 2 foi a vencedora\n");
        printf("o pais vencedor foi:%s", pais2);
-	   } else{
-	  printf("Deu empate a comparacao\n");
-	   }
+	   } 
 	   break;
-	case 3:
+	
+		 case 3:
 	    printf("Voce escolheu o Pib\n");
 	    if(pib1>pib2) {
 	    printf("O carta 1 ganhou!\n");
@@ -143,11 +141,10 @@ int main() {
 	   } else if (pib2>pib1){
 	   printf("o carta 2 foi a vencedora\n");
        printf("o pais vencedor foi:%c", pais2);
-	   } else{
-	  printf("Deu empate a comparaca\nn");
+	   } 
 	    break;
-	     }
-	 case 4:
+	
+		 case 4:
 	    printf("Voce escolheu o pontos turisticos\n");
 	    if(pontos1>pontos2) {
 	    printf("O carta 1 ganhou!\n");
@@ -155,11 +152,10 @@ int main() {
 	   } else if (pontos2>pontos1){
 	   printf("o carta 2 foi a vencedora\n");
        printf("o pais vencedor foi:%c", pais2);
-	   } else{
-	  printf("Deu empate a comparacao\n");
-	  }
+	   } 
 	   break; 
-		case 5:
+		
+		 case 5:
 	    printf("Voce escolheu a Densidade\n");
 	    if(densidade1<densidade2) {
 	    printf("O carta 1 ganhou!\n");
@@ -167,11 +163,8 @@ int main() {
 	   } else if (densidade2>densidade1){
 	   printf("o pais vencedor foi:%c", pais2);
 	   printf("o carta 2 foi a vencedora\n");
-       } else{
-	  printf("Deu empate a comparacao\n");
-        }
+       } 
      break;
-   }
 	    return 0;
         }
 	    
